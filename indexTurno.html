@@ -5,8 +5,46 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Turnos con la licenciada Caccamo</title>
     <script src="script.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="./styles.css">
 </head>
 <body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary" id="navbar">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="index.html">Licenciada María Carolina Caccamo</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" href="tel: 2214772265">
+                  Teléfono: 221 477-2265
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="https://maps.app.goo.gl/9nddCqHSAg1CSykj6">
+                  ¿Cómo ir?
+                </a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Turnos
+                </a>
+                <ul class="dropdown-menu" id="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Pedir un turno</a></li>
+                  <li><a class="dropdown-item" href="#">Cancelar un turno</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Consultar mis turnos</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
     <label for="horario">Seleccione un horario:</label>
     <select id="horario">
         <option value="Lunes 14 hrs">Lunes 14 hrs</option>
@@ -21,5 +59,6 @@
         <option value="Viernes 15 hrs">Viernes 15 hrs</option>
     </select>
     <button type="button" id="confirmar">Confirmar</button>
+    <a href="index.html"><button>Volver al menú</button></a>
 </body>
 </html>

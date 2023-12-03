@@ -1,0 +1,11 @@
+#navbar {
+    background: linear-gradient(to left, #B57EDC, #8653ad) !important;
+}
+#dropdown-menu {
+    background: linear-gradient(to right, #87CEEB, #98FB98) !important;
+}
+body {
+    background: linear-gradient(to right, #87CEEB, #98FB98);
+    margin: 0;
+    padding: 0;
+}
